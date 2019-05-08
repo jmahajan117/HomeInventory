@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent= "Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@android:color/holo_orange_light</item>
+        <item name="android:colorBackground">@android:color/darker_gray</item>
+    </style>
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@android:color/holo_orange_dark</item>
+        <item name="android:background">@android:color/background_dark</item>
+        <item name="colorAccent">@android:color/holo_orange_dark</item>
+    </style>
+
+</resources>

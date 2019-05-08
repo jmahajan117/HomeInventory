@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mahajan.homeinventory.DisplayItems">
+
+
+    <Button
+        android:id="@+id/AddButton"
+        android:layout_width="103dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="428dp"
+        android:background="@drawable/roundedbutton_green"
+        android:onClick="onAddButtonClick"
+        android:text="@string/add_item"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/lstMain"
+        android:layout_width="366dp"
+        android:layout_height="399dp"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:contextClickable="false"
+        android:focusable="false"
+        android:longClickable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/AddCat"
+        android:layout_width="103dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/roundedbutton_blue"
+        android:text="Create Categories"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.913"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
